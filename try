@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Main Page</title>
+        <link rel="stylesheet"href="tugas3.css"> 
+    </head>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cristiano Ronaldo</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Cristiano Ronaldo</h1>
+            <img src="Cristiano Ronaldo.jpg" alt="Cristiano Ronaldo">
+            <p><strong>Cristiano Ronaldo</strong> adalah seorang pemain sepak bola terkenal yang lahir pada 5 Februari 1985.
+                Ia telah meraih <mark>5 Ballon d'Or</mark> dan mencetak lebih dari <mark>700 gol</mark> dalam karirnya. Cristiano Ronaldo juga pemain sepak bola
+                Portugal yang dianggap <mark>salah satu yang terbaik sepanjang masa</mark>. Dia memiliki karier sukses di klub seperti <mark>Manchester United,
+                Real Madrid, dan Juventus</mark>, memenangkan berbagai gelar domestik dan internasional termasuk <em>Liga Champions UEFA</em>. Ronaldo juga terkenal
+                karena dedikasinya yang tinggi terhadap permainan, kebugaran yang luar biasa, serta kontribusinya dalam aktivitas amal.
+            </p>
+            <h2>Prestasi Utama Cristiano Ronaldo</h2>
+            <ul>
+                <li>Memenangkan 5 Ballon d'Or</li>
+                <li>Mencetak lebih dari 700 gol</li>
+                <li>Lima kali juara Liga Champions UEFA</li>
+                <li>Berbagai penghargaan Pemain Terbaik Dunia FIFA</li>
+                <li>Mendapatkan banyak trofi bersama Real Madrid dan Manchester United</li>
+            </ul>
+            <p style="color: red;">Baca lebih lanjut <a href="https://en.wikipedia.org/wiki/Cristiano_Ronaldo">di sini</a>.</p>
+            <div class="link">
+                <a href="https://www.instagram.com/cristiano/">Instagram</a>
+                    <a href="https://twitter.com/Cristiano">Twiter</a>
+            </div>
+        </div>
+        <div class="footer">
+            &copy; 2024 Cristiano Ronaldo Fan Page
+        </div>
+    </body>
+    </html>
+    
