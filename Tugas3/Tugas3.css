@@ -5,7 +5,7 @@ body {
     background-color: #f9f9f9; /* Memberikan warna latar belakang untuk halaman */
 }
 
-.container {
+utama {
     max-width: 800px; /* Lebar maksimum kontainer */
     margin: 20px auto; /* Posisi kontainer di tengah halaman */
     padding: 20px; /* Padding untuk ruang di dalam kontainer */
@@ -20,16 +20,18 @@ h1 {
     margin-bottom: 20px; /* Margin bawah */
 }
 
+/* CSS untuk mengatur tata letak gambar */
 img {
-    display: block;
-    margin: 0 auto;
-    width: 250px;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
+    display: block; /* Menjadikan gambar sebagai elemen blok */
+    margin: 0 auto; /* Mengatur margin atas dan bawah menjadi 0 dan margin samping menjadi otomatis sehingga gambar berada di tengah */
+    width: 250px; /* Mengatur lebar gambar */
+    height: auto; /* Mengatur ketinggian gambar agar tetap proporsional */
+    border-radius: 8px; /* Mengatur sudut border menjadi melengkung */
+    margin-bottom: 20px; /* Memberikan margin bawah 20px */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan untuk efek penekanan */
+    transition: transform 0.3s ease-in-out; /* Mengatur efek transisi saat gambar dihover */
 }
+
 
 img:hover {
     transform: scale(1.1); /* Efek scaling saat gambar dihover */
