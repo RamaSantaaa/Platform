@@ -22,7 +22,7 @@ h1 {
 
 /* CSS untuk mengatur tata letak gambar */
 img {
-    display: block; /* Menjadikan gambar sebagai elemen blok */
+    display: block; /* Menjadikan gambar sebagai elemen blok */ 
     margin: 0 auto; /* Mengatur margin atas dan bawah menjadi 0 dan margin samping menjadi otomatis sehingga gambar berada di tengah */
     width: 250px; /* Mengatur lebar gambar */
     height: auto; /* Mengatur ketinggian gambar agar tetap proporsional */
