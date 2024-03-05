@@ -63,6 +63,23 @@ a {
     color: #007bff; /* Warna teks hyperlink */
     text-decoration: none; /* Menghilangkan garis bawah default */
 }
+.prestasilist{
+    background-color: rgba(203, 199, 193, 0.614);
+    height: 150px; /* Ganti dengan unit ukuran yang sesuai */
+    /* overflow: auto; - Mengatur perilaku overflow menjadi otomatis, 
+    yang akan menambahkan scrollbar jika konten dalam elemen melebihi ukuran yang ditentukan. */
+    overflow: auto;
+
+    /* display: inline-block; - Mengatur elemen untuk ditampilkan sebagai blok yang dapat diatur dalam aliran teks, 
+    tetapi memiliki perilaku inline. */
+    display: inline-block;
+
+    width: 300px; /* Tambahkan unit ukuran */
+    padding-left: 25px; /* Tambahkan unit ukuran yang sesuai */
+    /* Mengatur border dengan ketebalan 5 piksel, solid (gaya garis solid), 
+   dan warna merah menggunakan notasi RGB (159 merah, 52 hijau, 52 biru). */
+    border: 5px solid rgb(159, 52, 52);
+}
 
 a:hover {
     text-decoration: underline; /* Garis bawah saat hover */
