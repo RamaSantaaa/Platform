@@ -2,21 +2,21 @@ body {
     font-family: 'Times New Roman', Times, serif; /* Mengatur font default untuk teks */
     margin: 0; /* Menghilangkan margin default dari body */
     padding: 0; /* Menghilangkan padding default dari body */
-    background-color: #f9f9f9; /* Memberikan warna latar belakang untuk halaman */
+    background-color: #070707; /* Memberikan warna latar belakang untuk halaman */
 }
 
 .utama {
-    max-width: 800px; /* Lebar maksimum kontainer */
+    max-width: 800px; /* Lebar maksimum utama */
     margin: 20px auto; /* Posisi kontainer di tengah halaman */
-    padding: 20px; /* Padding untuk ruang di dalam kontainer */
-    background-color: #f7f3f3; /* Warna latar belakang kontainer */
-    border-radius: 10px; /* Memberikan sudut bulat pada kontainer */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Memberikan bayangan pada kontainer */
+    padding: 20px; /* Padding untuk ruang di dalam utama */
+    background-color: #f7f3f3; /* Warna latar belakang utama */
+    border-radius: 10px; /* Memberikan sudut bulat pada utama */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Memberikan bayangan pada utama */
 }
 
 h1 {
     text-align: center; /* Posisi teks menjadi rata tengah */
-    color: #333; /* Warna teks */
+    color: #030303; /* Warna teks */
     margin-bottom: 20px; /* Margin bawah */
 }
 
@@ -69,7 +69,7 @@ a:hover {
 }
 
 mark {
-    background-color: #ffc107; /* Warna latar belakang untuk elemen yang ditebalkan */
+    background-color: #2000ae; /* Warna latar belakang untuk elemen yang ditebalkan */
     padding: 2px 5px; /* Padding */
     border-radius: 4px; /* Memberikan sudut bulat */
 }
