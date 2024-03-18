@@ -1,47 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="description" content="Tugas 4 Pemrograman Platform" />
-    <title>Tugas4Plaform</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-    <div>
-      <div id="InputNama">
-        <h3>
-          Nama :<input
-            type="text"
-            id="dataInputNama"
-            placeholder="masukan nama"
-          />
-        </h3>
-      </div>
-      <div id="inputJumlah">
-        <h3>
-          Jumlah Pilihan :<input
-            type="number"
-            id="dataInputJumlah"
-            placeholder="jumlah"
-          />
-        </h3>
-    </div>
-    <button onclick="tampilMasukanJumlahPilihan()">OK</button>
+<head>
+  <meta name="description" content="Tugas 4 Pemrograman Platform" />
+  <title>Tugas4Platform</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ 
+<div id="inputContainer">
+  <div id="InputNama">
+    <h3>Nama:<input 
+    type="text" 
+    id="dataInputNama" 
+    placeholder="Masukkan Nama" />
+  </h3>
   </div>
-  <div>
-    <div id="isi"></div>
-    <button id="tombolOKPilihan" style="display: none">OK</button>
-    <br />
-    <form></form>
+  <div id="inputJumlah">
+    <h3>Jumlah Pilihan:</h3>
+    <input type="number"
+     id="dataInputJumlah"
+      placeholder="Jumlah" />
+    </h3>
   </div>
+  <button onclick="tampilMasukanJumlahPilihan()">OK</button>
+</div>
 
-  <div>
-    <button id="tampilkanData"onclick="tampilkanDataTerpilih()"style="display: none">OK</button>
+<div id="inputContainer">
+  <div id="isi"></div>    
+  <button id="tombolOKPilihan"style="display: none">OK</button>
+  <br />
+  <form></form>
+</div>
 
-    <div id="containerOutput">
-      <p id="hasilTampil"></p>
-    </div>
+<div id="inputContainer">
+  <button id="tampilkanData"onclick="tampilkanDataTerpilih()"style="display: none">OK</button>
+
+  <div id="containerOutput">
+    <p id="hasilTampil"></p>
   </div>
+</div>
 
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
-    
+
