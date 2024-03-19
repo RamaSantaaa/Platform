@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom, #4B79A1, #283E51);
+    background: linear-gradient(to bottom, #0c17de, #283E51);
     background-attachment: fixed;
     background-size: cover;
     font-family: Arial, sans-serif;
@@ -49,4 +49,38 @@ body {
     background-color: rgba(255, 255, 255, 0.5);
   }
   
+  button {
+    background-color: #0095DD;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #008CBA;
+  }
+  
+  #pilihanContainer {
+    margin: 50px auto;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #outputContainer {
+    margin: 50px auto;
+    width: 50%;
+    text-align: center;
+  }
+  
+  #hasilTampil {
+    font-size: 23px;
+    text-transform: capitalize;
+  }
   
