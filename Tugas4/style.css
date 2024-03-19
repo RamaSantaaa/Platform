@@ -1,86 +1,99 @@
+/* Program ini adalah contoh styling untuk sebuah formulir yang terdiri dari input nama, input jumlah, dan tombol submit. */
+
+/* Styling untuk body */
 body {
-    background: linear-gradient(to bottom, #0c17de, #283E51);
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: Arial, sans-serif;
-    color: white;
-    margin: 0;
-    padding: 0;
-  }
-  
-  #inputContainer {
-    margin: 50px auto;
-    width: 50%;
-    background-color: rgba(255, 255, 255, 0.2);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-  }
-  
-  #inputContainer:hover {
-    transform: translateY(-5px);
-  }
-  
-  #inputContainer h3 {
-    margin: 10px 0;
-  }
-  
-  #InputNama,
-  #inputJumlah {
-    display: flex;
-    align-items: center;
-  }
-  
-  #InputNama input[type="text"],
-  #inputJumlah input[type="number"] {
-    padding: 10px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    margin-left: 10px;
-    flex: 1;
-    background-color: rgba(255, 255, 255, 0.3);
-  }
-  
-  #InputNama input[type="text"]:focus,
-  #inputJumlah input[type="number"]:focus {
-    outline: none;
-    background-color: rgba(255, 255, 255, 0.5);
-  }
-  
-  button {
-    background-color: #0095DD;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
-    transition: background-color 0.3s ease;
-  }
-  
-  button:hover {
-    background-color: #008CBA;
-  }
-  
-  #pilihanContainer {
-    margin: 50px auto;
-    width: 50%;
-    background-color: rgba(255, 255, 255, 0.2);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  #outputContainer {
-    margin: 50px auto;
-    width: 50%;
-    text-align: center;
-  }
-  
-  #hasilTampil {
-    font-size: 23px;
-    text-transform: capitalize;
-  }
-  
+  background: linear-gradient(to bottom, #0c17de, #283E51); /* Menggunakan gradient background untuk efek visual yang menarik */
+  background-attachment: fixed; /* Memastikan background tetap saat menggulir */
+  background-size: cover; /* Mengatur background agar menutupi seluruh area */
+  font-family: Arial, sans-serif; /* Menggunakan font yang umum tersedia */
+  color: white; /* Warna teks putih untuk kontras dengan latar belakang */
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling untuk input container */
+#inputContainer {
+  margin: 50px auto; /* Memberikan jarak dari tepi layar */
+  width: 50%; /* Lebar kontainer agar tidak terlalu lebar */
+  background-color: rgba(255, 255, 255, 0.2); /* Warna latar belakang dengan transparansi */
+  padding: 20px; /* Memberikan ruang di dalam kontainer */
+  border-radius: 10px; /* Memberikan sudut yang melengkung */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk tampilan 3D */
+  transition: transform 0.3s ease; /* Efek transisi saat hover */
+}
+
+/* Efek hover pada input container */
+#inputContainer:hover {
+  transform: translateY(-5px); /* Menggeser kontainer ke atas saat dihover */
+}
+
+/* Styling untuk judul di dalam input container */
+#inputContainer h3 {
+  margin: 10px 0; /* Memberikan jarak pada judul */
+}
+
+/* Styling untuk input nama dan jumlah */
+#InputNama,
+#inputJumlah {
+  display: flex; /* Menata input dalam satu baris */
+  align-items: center; /* Menyusun input secara vertikal tengah */
+}
+
+/* Styling untuk input teks dan angka */
+#InputNama input[type="text"],
+#inputJumlah input[type="number"] {
+  padding: 10px; /* Memberikan ruang di dalam input */
+  font-size: 16px; /* Ukuran font standar */
+  border: none; /* Menghilangkan border */
+  border-radius: 5px; /* Memberikan sudut yang melengkung */
+  margin-left: 10px; /* Memberikan jarak antara label dan input */
+  flex: 1; /* Meratakan input */
+  background-color: rgba(255, 255, 255, 0.3); /* Warna latar belakang dengan transparansi */
+}
+
+/* Efek focus pada input teks dan angka */
+#InputNama input[type="text"]:focus,
+#inputJumlah input[type="number"]:focus {
+  outline: none; /* Menghilangkan outline */
+  background-color: rgba(255, 255, 255, 0.5); /* Warna latar belakang dengan transparansi lebih tinggi */
+}
+
+/* Styling untuk tombol submit */
+button {
+  background-color: #0095DD; /* Warna latar belakang tombol */
+  color: white; /* Warna teks putih */
+  border: none; /* Menghilangkan border */
+  padding: 10px 20px; /* Memberikan ruang di dalam tombol */
+  border-radius: 5px; /* Memberikan sudut yang melengkung */
+  cursor: pointer; /* Mengubah kursor saat dihover menjadi pointer */
+  margin-top: 10px; /* Memberikan jarak antara tombol dengan input */
+  transition: background-color 0.3s ease; /* Efek transisi saat hover */
+}
+
+/* Efek hover pada tombol */
+button:hover {
+  background-color: #008CBA; /* Warna latar belakang berubah saat dihover */
+}
+
+/* Styling untuk kontainer pilihan */
+#pilihanContainer {
+  margin: 50px auto; /* Memberikan jarak dari tepi layar */
+  width: 50%; /* Lebar kontainer agar tidak terlalu lebar */
+  background-color: rgba(255, 255, 255, 0.2); /* Warna latar belakang dengan transparansi */
+  padding: 20px; /* Memberikan ruang di dalam kontainer */
+  border-radius: 10px; /* Memberikan sudut yang melengkung */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk tampilan 3D */
+}
+
+/* Styling untuk kontainer output */
+#outputContainer {
+  margin: 50px auto; /* Memberikan jarak dari tepi layar */
+  width: 50%; /* Lebar kontainer agar tidak terlalu lebar */
+  text-align: center; /* Posisi teks di tengah */
+}
+
+/* Styling untuk hasil tampil */
+#hasilTampil {
+  font-size: 23px; /* Ukuran font yang besar */
+  text-transform: capitalize; /* Mengubah teks menjadi huruf kapital */
+}
